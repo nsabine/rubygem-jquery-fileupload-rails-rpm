@@ -2,7 +2,7 @@
 %global gem_name jquery-fileupload-rails
 
 Name: rubygem-%{gem_name}
-Version: 0.3.5
+Version: 0.3.6
 Release: 1%{?dist}
 Summary: jQuery File Upload for Rails 3.1 Asset Pipeline
 Group: Development/Languages
@@ -71,6 +71,9 @@ popd
 %{gem_instdir}/Rakefile
 
 %changelog
+* Tue Sep 27 2016 Nick sabine <nsabine@redhat.com> 0.3.6-1
+- Added gemfile (nsabine@redhat.com)
+
 * Tue Sep 27 2016 Nick sabine <nsabine@redhat.com> 0.3.5-1
 - new package built with tito
 
